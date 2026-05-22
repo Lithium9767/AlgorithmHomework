@@ -1,0 +1,4 @@
+kind,n,seed,alpha,k,third,value,gap_vs_unrestricted_pct,generated_ops,reached_or_expanded_states,time_first,time_second,time_third,time_total
+uniform,12,0,2,inf,dp,233.10704022,0,159744,13312,0.042841878,0.06195053,0.249260319,0.354076371
+uniform,13,0,2,inf,dp,233.10704022,0,372736,28672,0.076575587,0.107505275,1.165420303,1.349510602
+uniform,14,0,2,inf,dp,235.483015619,0,860160,61440,0.152907229,0.323024863,7.248395554,7.724339953
