@@ -16,12 +16,12 @@ plt.rcParams["font.sans-serif"] = ["DejaVu Sans"]
 plt.rcParams["font.weight"] = "bold"
 plt.rcParams["axes.titleweight"] = "bold"
 plt.rcParams["axes.labelweight"] = "bold"
-plt.rcParams["axes.titlesize"] = 18
-plt.rcParams["axes.labelsize"] = 15
+plt.rcParams["axes.titlesize"] = 25
+plt.rcParams["axes.labelsize"] = 24
 plt.rcParams["xtick.labelsize"] = 13
 plt.rcParams["ytick.labelsize"] = 13
-plt.rcParams["legend.fontsize"] = 13
-plt.rcParams["figure.titlesize"] = 18
+plt.rcParams["legend.fontsize"] = 18
+plt.rcParams["figure.titlesize"] = 26
 
 COLOR_ORANGE = "#F2B382"
 COLOR_BLUE   = "#8CC6ED"
@@ -866,11 +866,11 @@ if not summary.empty:
     # ax.add_artist(con2)
 
         # ================= 字体整体放大：论文图更清晰 =================
-    ax.set_xlabel("Number of nodes n", fontsize=19, fontweight="bold")
-    ax.set_ylabel("Average runtime (s)", fontsize=19, fontweight="bold")
+    ax.set_xlabel("Number of nodes n", fontsize=26, fontweight="bold")
+    ax.set_ylabel("Average runtime (s)", fontsize=28, fontweight="bold")
     ax.set_title(
         "Runtime Breakdown by Pass (Uniform, DP, k=inf)",
-        fontsize=21,
+        fontsize=23,
         fontweight="bold",
         pad=14,
     )
